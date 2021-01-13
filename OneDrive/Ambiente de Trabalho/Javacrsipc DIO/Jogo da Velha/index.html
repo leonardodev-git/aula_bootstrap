@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+    #painel {
+        margin: auto;
+        margin-top: 50px;
+        width: 252px;
+        height: 80px;
+    }
+
+    .botao {
+        width: 252px;
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+    .espaco {
+        width: 60px;
+        height: 60px;
+        border: 2px solid #000000;
+        float: left;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .tabuleiro {
+        margin: auto;
+        width: 252px;
+        height: 252px;
+    }
+</style>
+
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div id="painel">
+        <p style="float:left; margin-right: 10px;">Vez do Jogador:</p>
+        <img src="" alt="" border="0" height="50" width="">
+    </div>
+
+    <div class="tabuleiro">
+        <div id="a1" class="espaco" jogada=""></div>
+        <div id="a2" class="espaco" jogada=""></div>
+        <div id="a3" class="espaco" jogada=""></div>
+
+        <div id="b1" class="espaco" jogada=""></div>
+        <div id="b2" class="espaco" jogada=""></div>
+        <div id="b3" class="espaco" jogada=""></div>
+
+        <div id="c1" class="espaco" jogada=""></div>
+        <div id="c2" class="espaco" jogada=""></div>
+        <div id="c3" class="espaco" jogada=""></div>
+    </div>
+
+    <div class="botao">
+        <button>Reiniciar</button>
+    </div>
+
+    <script src="Imagens/jdv.js"></script>
+</body>
+</html>
